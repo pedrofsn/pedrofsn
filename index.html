@@ -21,6 +21,8 @@
       <link rel="stylesheet" href="css/style-noscript.css" />
    </noscript>
    <link rel="stylesheet" href="css/jquery.remodal.css">
+   <link rel="stylesheet" href="css/swipebox.css">
+   
       <!--[if lte IE 8]>
       <link rel="stylesheet" href="css/ie/v8.css" />
       <![endif]-->
@@ -183,15 +185,37 @@
         <p>
            Um aplicativo bastante prático para quem deseja VERIFICAR se um CPF é válido ou até mesmo GERAR CPFs válidos, além de CONSULTAR a situação de um CPF na Receita Federal. As mesmas funcionalidades também se aplicam ao CNPJ.
         </p>
+		<br>	  
+			<ul id="box-container">
+				<li class="box">
+					<a href="https://lh4.ggpht.com/gY1jiD4CNglPWCdYODZbYpuNB9cKszVrokPW_x7aWWR-behIjIUk1jT5_HMoK0Qdomo=h900-rw" class="swipebox" title="CPF Gerado">
+						<img src="https://lh4.ggpht.com/gY1jiD4CNglPWCdYODZbYpuNB9cKszVrokPW_x7aWWR-behIjIUk1jT5_HMoK0Qdomo=h900-rw" width="186" height="310">
+					</a>
+					<a href="https://lh3.ggpht.com/Tll8ENdYDcVQZAM_AdzONQv7Xa3a5ODjS7M-tdhoYqXT1efVPlNt3QFIvEdD6ydjPI4=h900-rw" class="swipebox" title="Menu Lateral">
+						<img src="https://lh3.ggpht.com/Tll8ENdYDcVQZAM_AdzONQv7Xa3a5ODjS7M-tdhoYqXT1efVPlNt3QFIvEdD6ydjPI4=h900-rw" width="186" height="310">
+					</a>
+					<a href="https://lh6.ggpht.com/n78rjWvyxInRfASbi8b7bolOIL92kfxcD3YQ5fUS5hd-3NtvLGovGOCWOk3WarW0Wgc=h900-rw" class="swipebox" title="Validação de CNPJ">
+						<img src="https://lh6.ggpht.com/n78rjWvyxInRfASbi8b7bolOIL92kfxcD3YQ5fUS5hd-3NtvLGovGOCWOk3WarW0Wgc=h900-rw" width="186" height="310">
+					</a>
+				</li>
+			</ul>
         <br>
-        <a href="https://play.google.com/store/apps/details?id=br.com.pedrofsn">
-          <img alt="Get it on Google Play"
-          src="https://developer.android.com/images/brand/pt-br_generic_rgb_wo_60.png" />
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.pedrofsn">
+          <img alt="Baixar na Google Play" src="https://developer.android.com/images/brand/pt-br_generic_rgb_wo_60.png" />
        </a>
     </a>
  </div>
 
  <script src="js/jquery.remodal.js"></script>
+ <script src="js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+
+      });
+	</script>
 
 </body>
 </html>
