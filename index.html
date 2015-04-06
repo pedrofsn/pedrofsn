@@ -11,6 +11,7 @@
    <meta name="description" content="" />
    <meta name="keywords" content="" />
    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+   <script type="text/javascript" src="js/please-wait.js"></script>
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/jquery.min.js"></script>
    <script src="js/skel.min.js"></script>
@@ -23,12 +24,25 @@
    </noscript>
    <link rel="stylesheet" href="css/jquery.remodal.css">
    <link rel="stylesheet" href="css/swipebox.css">
+   <link rel="stylesheet" href="css/please-wait.css">
    
       <!--[if lte IE 8]>
       <link rel="stylesheet" href="css/ie/v8.css" />
       <![endif]-->
    </head>
    <body>
+      <!-- WAIT!!! -->
+      <script type="text/javascript">
+         window.loading_screen = window.pleaseWait({
+            logo: "images/me.jpg",
+            backgroundColor: '#fabcdef',
+            loadingHtml: "<p class='loading-message'>Oi, a página está sendo carregada, aguarde um instante! :)</p>"
+            });
+         window.onload = function () { 
+            window.loading_screen.finish();
+         }
+         </script>
+
       <!-- Wrapper-->
       <div id="wrapper">
          <!-- Nav -->
@@ -217,6 +231,5 @@
 
       });
 	</script>
-
 </body>
 </html>
