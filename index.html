@@ -16,6 +16,7 @@
       <script src="js/jquery.min.js"></script>
       <script src="js/skel.min.js"></script>
       <script src="js/init.js"></script>
+      <script src="js/calculator_age.js"></script>
       <noscript>
          <link rel="stylesheet" href="css/skel.css" />
          <link rel="stylesheet" href="css/style.css" />
@@ -39,6 +40,7 @@
             });
          window.onload = function () { 
             window.loading_screen.finish();
+            $('#age').html(getAge("6/11/1992") + ' anos');
          }
       </script>
       <!-- Wrapper-->
@@ -74,7 +76,7 @@
             <ul>
                <li>Pedro Francisco de Sousa Neto</li>
                <li>Casado</li>
-               <li>22 anos</li>
+               <li><div id="age"></div></li>
                <li>pedrokra<b>[at]</b>gmail<b>[dot]</b>com</li>
                <li>+55&nbsp;62 8208-0507 (TIM)</li>
             </ul>
