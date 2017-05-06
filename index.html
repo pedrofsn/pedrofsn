@@ -47,21 +47,19 @@
       <div id="wrapper">
       <!-- Nav -->
       <nav id="nav">
-         <a href="#me" class="icon fa-home active"><span>Home</span></a>
-         <a href="#curriculum" class="icon fa-file-text"><span>Currículo</span></a>
-         <a href="#work" class="icon fa-code"><span>Portfólio</span></a>
-         <a href="#palestras" class="icon fa-slideshare"><span>Palestras</span></a>
-         <a href="#social" class="icon fa-user-plus"><span>Social</span></a>
-         <a href="#doe" class="icon fa-money"><span>Doe</span></a>
-         <a href="#contact" class="icon fa-envelope"><span>Contato</span></a>
+         <a href="#me" class="icon fa-home active" style="color:white"></a>
+         <a href="#curriculum" class="icon fa-file-text" style="color:white"></a>
+         <a href="#work" class="icon fa-code" style="color:white"></a>
+         <a href="#palestras" class="icon fa-slideshare" style="color:white"></a>
+         <a href="#contact" class="icon fa-envelope" style="color:white"></a>
       </nav>
       <!-- Main -->
       <div id="main">
          <!-- Me -->
          <article id="me" class="panel">
             <header>
-               <h1>Pedro F. S. Neto</h1>
-               <p>Mobile Developer</p>
+               <h1>pedrofsn</h1>
+               <p>Android Developer</p>
             </header>
             <a href="#work" class="jumplink pic">
             <img src="images/me.jpg" alt="" />
@@ -69,6 +67,9 @@
          </article>
          <!-- Me -->
          <article id="curriculum" class="panel">
+            <header>
+               <h2>Currículo</h2>
+            </header>
             <div class="separator" style="clear: both; text-align: center;">
                <a href="http://4.bp.blogspot.com/-gZ1chcszpZg/UtBY9CfeYQI/AAAAAAAARgo/REgD_E0RdVw/s1600/eu.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img align="right" border="0" src="http://4.bp.blogspot.com/-gZ1chcszpZg/UtBY9CfeYQI/AAAAAAAARgo/REgD_E0RdVw/s1600/eu.png" height="150" width="128" /></a>
             </div>
@@ -77,13 +78,12 @@
                <li>Pedro Francisco de Sousa Neto</li>
                <li>Casado</li>
                <li><div id="age"></div></li>
-               <li>pedrokra<b>[at]</b>gmail<b>[dot]</b>com</li>
-               <li>+55&nbsp;62 8208-0507 (TIM)</li>
             </ul>
             <b></b>
             <b>Dados Acadêmico</b> <br />
             <ul>
-               <li>Bacharel em Sistemas de Informação pela&nbsp;Universidade Federal de Goiás.</li>
+               <li><a href="http://www.inf.ufg.br/sistemas-de-informacao">2011 - 2014</a> | Bacharel em Sistemas de Informação pela&nbsp;Universidade Federal de Goiás </li>
+               <li><a href="http://www.inf.ufg.br/espweb-mob">2017 - 2018</a> | Especialização em Desenvolvimento Web e Mobile pela&nbsp;Universidade Federal de Goiás</li>
             </ul>
             <b>Idiomas</b> <br />
             <ul>
@@ -92,13 +92,15 @@
             </ul>
             <b>Experiência</b> <br />
             <ul>
-               <li><a href="http://www.linkedin.com/profile/view?id=106998609">Profissional</a></li>
+               <li><a href="https://www.linkedin.com/in/pedrofsn/">Profissional</a></li>
                <li><a href="http://lattes.cnpq.br/9225119509636921">Acadêmica</a></li>
             </ul>
          </article>
          <!-- Palestras -->
          <article id="palestras" class="panel">
-            <b>Palestras</b><br />
+            <header>
+               <h2>Palestras</h2>
+            </header>
 			   <br/> 
             <ul>
                <li>
@@ -115,82 +117,18 @@
             </li>
             </ul>
          </article>
-         <!-- Doação -->
-         <article id="doe" class="panel">
-            <b>Doe</b><br />
-			<br/> 
-			<center>
-			<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-			<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post" target="pagseguro">
-			<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-				<input name="receiverEmail" type="hidden" value="pedrokra@gmail.com" />
-				<input name="currency" type="hidden" value="BRL" />
-				<input alt="Pague com PagSeguro - é rápido, grátis e seguro!" name="submit" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar.gif" type="image" />
-			</form>
-			<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-				<input name="cmd" type="hidden" value="_s-xclick" />
-				<input name="encrypted" type="hidden" value="-----BEGIN PKCS7-----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-----END PKCS7----- " />
-				<input alt="PayPal - A maneira mais fácil e segura de efetuar pagamentos online!" border="0" name="submit" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" type="image" />
-				<img alt="" border="0" height="1" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" />
-			</form>
-			<!-- https://www.paypalobjects.com/pt_BR/i/btn/btn_donate_LG.gif -->
-			</center>
-         </article>
-         <!-- Contact -->
-         <article id="social" class="panel">
-            <header>
-               <h2>Social</h2>
-            </header>
-            <table class="table" style="text-align: center;">
-               <tbody>
-                  <tr>
-                     <td><a href="https://twitter.com/pedrofsn"><i class="fa fa-twitter fa-3x"></i></a></td>
-                     <td><a href="https://www.facebook.com/pedrofsn1"><i class="fa fa-facebook fa-3x"></i></a></td>
-                     <td><a href="https://plus.google.com/u/0/109521492887563626581/posts"><i class="fa fa-google-plus fa-3x"></i></a></td>
-                  </tr>
-                  <tr>
-                     <td><a href="http://www.linkedin.com/profile/view?id=106998609"><i class="fa fa-linkedin fa-3x"></i></a></a></td>
-                     <td><a href="https://github.com/pedrofsn"><i class="fa fa-github-alt fa-3x"></i></a></td>
-                     <td><a href="https://play.google.com/store/apps/developer?id=Pedro%20Francisco%20de%20Sousa%20Neto"><i class="fa fa-android fa-3x"></i></a></td>
-               </tbody>
-            </table>
-         </article>
          <article id="contact" class="panel">
             <header>
                <h2>Contato</h2>
             </header>
-            <form action="http://www.formulariopro.pog.com.br/formail.php" method="post">
-               <input type="hidden" name="seunome" value="Pedro Francisco de Sousa Neto">
-               <input type="hidden" name="nomedosite" value="www.pedrofsn.com.br">
-               <input type="hidden" name="emaildest" value="pedrokra@gmail.com">
-               <input type="hidden" name="redirecionar" value="http://www.pedrofsn.com.br">
-               <div>
-                  <div class="row">
-                     <div class="6u">
-                        <input type="text" name="nome" placeholder="Nome" />
-                     </div>
-                     <div class="6u">
-                        <input type="text" name="email" placeholder="Email" />
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="12u">
-                        <input type="text" name="assunto" placeholder="Assunto" />
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="12u">
-                        <textarea name="mensagem" placeholder="Mensagem" rows="8"></textarea>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="12u">
-                        <input type="submit" value="Enviar email" />
-                     </div>
-                  </div>
-               </div>
-            </form>
+            <ul>
+               <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:pedrokra@gmail.com">pedrokra@gmail.com</a></li>
+               <li><i class="fa fa-whatsapp" aria-hidden="true"></i> <a href="tel:+5562982080507">+55 (62) 9 8208-0507</a></li>
+               <li><i class="fa fa-facebook" aria-hidden="true"></i> <a href="https://www.facebook.com/pedrofsn1">pedrofsn1</a></li>
+               <li><i class="fa fa-instagram" aria-hidden="true"></i> <a href="https://www.instagram.com/pedrofsn">pedrofsn</a></li>
+               <li><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/pedrofsn">pedrofsn</a></li>
+               <li><i class="fa fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/pedrofsn">pedrofsn</a></li>
+            </ul>
          </article>
          <!-- Work --> 
          <article id="work" class="panel">
@@ -198,36 +136,41 @@
                <h2>Portfólio</h2>
             </header>
             <p>
-               Conheça alguns dos projetos que desenvolvi.
+               Conheça alguns dos projetos que desenvolvi como freelancer
             </p>
             <section>
                <div class="row">
                   <div class="4u">
-                     <a href="#modalCPF"><img src="https://lh5.ggpht.com/2nKf7HS4mi4lNXwPPW0V840gonZz00vl-vCoRsvPfDkCodNPd_rqC0rlpAjXHdBOO14=w250-rw" alt="Gerador Validador de CPF CNPJ"></a>
+                     <a href="http://estudiocriar.com/portfolio/agenda-digital-2/" target="_newTab"><img width="250" src="images/agendadigital.jpg" alt="Agenda Digital"></a>
                   </div>
                   <div class="4u">
-                     <a href="#modalSwift"><img src="https://lh5.ggpht.com/19B0r9kwHrMPmT13r5UgC_gbmTTYYfo0svNzrdz3vRd9d2Ll7hnL-jo2I0J2gOGhKVw=w250-rw" alt="Códigos SWIFT"/></a>
+                     <a href="http://estudiocriar.com/portfolio/aplicativo-car4sale/" target="_newTab"><img width="250" src="images/car4sale.jpg" alt="Car4Sale"/></a>
                   </div>
                   <div class="4u">
-                     <a href="https://play.google.com/store/apps/details?id=simple.hexadecimal.color" class="image fit"><img src="https://lh3.ggpht.com/zxaWZShslkXHdnwcjcTRuhddcuHO6p0mUG-UhfAvBCLqBQTU442HMZWzKzXAlyBfuV0e=w250-rw" alt="Cor Hexadecimal Simples"></a>
+                     <a href="http://estudiocriar.com/portfolio/click-digital/" target="_newTab"><img width="250" src="images/clickvale.jpg" alt="ClickVale"></a>
                   </div>
                </div>
                <div class="row">
                   <div class="4u">
-                     <a href="https://play.google.com/store/apps/details?id=alistamento.militar" class="image fit"><img src="https://lh3.ggpht.com/PJBS1zQb-jc7-A9VbKbwHGO3it1oendZNKFMfmiqQSmyNUxDZ9nlhI1lMHNJoTCnbQ=w250-rw" alt="Tudo sobre Alistamento Militar"></a>
+                     <a href="http://estudiocriar.com/portfolio/sios/" target="_newTab"><img width="250" src="images/siios.jpg" alt="SIIOS"></a>
                   </div>
                   <div class="4u">
-                     <a href="https://play.google.com/store/apps/details?id=cmc7.cheque.falso" class="image fit"><img src="https://lh6.ggpht.com/UwJO1KeKFzebOlYkZ-yJEgGHuCmCXPLDx5bTDDeb_ZaeDz5fkz-UDmZBJXfIjaIbCKs=w250-rw" alt="CMC7 Cheque Falso"></a>
+                     <a href="http://estudiocriar.com/portfolio/238/" target="_newTab"><img width="250" src="images/heey.jpg" alt="Heey"/></a>
                   </div>
                   <div class="4u">
-                     <a href="https://play.google.com/store/apps/details?id=agite.para.sortear" class="image fit"><img src="https://lh3.ggpht.com/wHIGMO5s8aW7ZMBXmTfx1m8x0tKkX2umkO-nDpLlwMJXXcKBTPokmdhp1CDQ-oKVK20=w250-rw" alt="Agite para Sortear"></a>
+                     <a href="https://play.google.com/store/apps/details?id=br.app.pesquisa" target="_newTab"><img width="250" height="250" src="images/pesquisacolaborativa.jpg" alt="Pesquisa Colaborativa"></a>
                   </div>
                </div>
-               <div class="row">
-                  <div class="4u">
-                     <a href="https://play.google.com/store/apps/details?id=pet.talk" class="image fit"><img src="https://lh6.ggpht.com/H0zHnMYxjMCKiW51yVkf97P0LP0BAZt96DFk2bRpSCoXnrfwzJL_HTUao1j0UQkgM_g=w250-rw" alt="Pet Talk"></a>
-                  </div>
-               </div>
+               <p>
+                  <br/>
+                  <a href="https://play.google.com/store/apps/details?id=br.com.pedrofsn">Gerador Validador de CPF CNPJ</a>  | <a href="https://play.google.com/store/apps/details?id=alistamento.militar">Tudo sobre Alistamento Militar</a>  | <a href="https://play.google.com/store/apps/details?id=simple.hexadecimal.color">Cor Hexadecimal Simples</a> | <a href="https://play.google.com/store/apps/details?id=agite.para.sortear">Agite para Sortear</a>  | <a href="https://provivencia.github.io/pagina-produto/">PROVI Corretor</a> | etc
+                  <br/>
+                  <br/>
+                  e alguns dos projetos corporativos em que atuei como CLT...
+                  <br/>
+                  <br/>
+                  <a href="https://play.google.com/store/apps/details?id=br.com.gwaya.concebraPro">Concebra PRO</a> | <a href="http://maximasistemas.com.br/solucoes/maxmove-entrega/">maxMove Entrega</a> | <a href="http://maximasistemas.com.br/solucoes/pedido-de-venda/">Pedido de Venda</a>  | <a href="http://maximasistemas.com.br/solucoes/pronta-entrega/">Pronta Entrega</a> | etc
+               </p>
             </section>
          </article>
       </div>
@@ -235,61 +178,6 @@
       <section id="footer">
          <div class="row"/>
       </section>
-      </div>
-
-      <!-- PROJETOS -->
-      <div class="remodal" data-remodal-id="modalCPF">
-         <h1>Gerador Validador de CPF CNPJ</h1>
-         <br>
-         <p>
-            Um aplicativo bastante prático para quem deseja VERIFICAR se um CPF é válido ou até mesmo GERAR CPFs válidos, além de CONSULTAR a situação de um CPF na Receita Federal. As mesmas funcionalidades também se aplicam ao CNPJ.
-         </p>
-         <br>    
-         <ul id="box-container">
-            <li class="box">
-               <a href="https://lh4.ggpht.com/gY1jiD4CNglPWCdYODZbYpuNB9cKszVrokPW_x7aWWR-behIjIUk1jT5_HMoK0Qdomo=h900-rw" class="swipebox" title="CPF Gerado">
-               <img src="https://lh4.ggpht.com/gY1jiD4CNglPWCdYODZbYpuNB9cKszVrokPW_x7aWWR-behIjIUk1jT5_HMoK0Qdomo=h900-rw" width="186" height="310">
-               </a>
-               <a href="https://lh3.ggpht.com/Tll8ENdYDcVQZAM_AdzONQv7Xa3a5ODjS7M-tdhoYqXT1efVPlNt3QFIvEdD6ydjPI4=h900-rw" class="swipebox" title="Menu Lateral">
-               <img src="https://lh3.ggpht.com/Tll8ENdYDcVQZAM_AdzONQv7Xa3a5ODjS7M-tdhoYqXT1efVPlNt3QFIvEdD6ydjPI4=h900-rw" width="186" height="310">
-               </a>
-               <a href="https://lh6.ggpht.com/n78rjWvyxInRfASbi8b7bolOIL92kfxcD3YQ5fUS5hd-3NtvLGovGOCWOk3WarW0Wgc=h900-rw" class="swipebox" title="Validação de CNPJ">
-               <img src="https://lh6.ggpht.com/n78rjWvyxInRfASbi8b7bolOIL92kfxcD3YQ5fUS5hd-3NtvLGovGOCWOk3WarW0Wgc=h900-rw" width="186" height="310">
-               </a>
-            </li>
-         </ul>
-         <br>
-         <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.pedrofsn">
-         <img alt="Baixar na Google Play" src="https://developer.android.com/images/brand/pt-br_generic_rgb_wo_60.png" />
-         </a>
-      </div>
-
-      <div class="remodal" data-remodal-id="modalSwift">
-         <h1>Códigos SWIFT</h1>
-         <br>
-         <p>
-            Uma lista para consulta de Códigos SWIFT de diversos bancos.<br />
-            Bastante útil pra quem quiser se cadastrar no AdMob, Adsense, PayPal...
-            "Bank Identifier Code (BIC) é uma norma que tem por finalidade permitir a identificação de instituições bancárias através de um conjunto de números. Segue a norma ISO 9362.<br />
-            Esta norma define a estrutura e os componentes universais de identificação dos bancos (BIC) de maneira a ser utilizado nos tratamentos automáticos na banca e na finança.<br />
-            A Society for Worldwide Interbank Financial Telecommunication (SWIFT) gere esse códigos, por isso, muitas vezes o BIC é qualificado de código SWIFT.<br />
-            O BIC permite efectuar transferências transfronteiriças para as quais o encargo para o titular da conta não ultrapassa o custo duma transferência na rede nacional do banco."
-         </p>
-         <br>    
-         <ul id="box-container">
-            <li class="box">
-               <a href="https://lh5.ggpht.com/OrwSjDuU-xIOKkfddhjZj_PV_UMM8FH_1NJne7A2R6FwkO-a9a46JOVJSopNkVuG4-A=h900-rw" class="swipebox" title="Países">
-               <img src="https://lh5.ggpht.com/OrwSjDuU-xIOKkfddhjZj_PV_UMM8FH_1NJne7A2R6FwkO-a9a46JOVJSopNkVuG4-A=h900-rw" width="186" height="310">
-               </a>
-               <a href="https://lh4.ggpht.com/8k6afLLkfTsH-YZHI5xKnRBwm5Bf_ltmkU0LzpHWpWsDqHbfQtxLx8abMiyj-npvHJw=h900-rw" class="swipebox" title="Bancos">
-               <img src="https://lh4.ggpht.com/8k6afLLkfTsH-YZHI5xKnRBwm5Bf_ltmkU0LzpHWpWsDqHbfQtxLx8abMiyj-npvHJw=h900-rw" width="186" height="310">
-               </a>
-            </li>
-         </ul>
-         <br>
-         <a target="_blank" href="https://play.google.com/store/apps/details?id=banks.swift">
-         <img alt="Baixar na Google Play" src="https://developer.android.com/images/brand/pt-br_generic_rgb_wo_60.png" />
-         </a>
       </div>
 
       <!-- swipebox -->
