@@ -42,8 +42,10 @@
             });
          window.onload = function () { 
             window.loading_screen.finish();
-            
-            $('#age').text(getAge("6/11/1992") + ' anos');
+            var birthday = "November 6, 1992 16:00:00";
+            var calculatedAge = getAge(birthday);
+            var text = calculatedAge + ' anos';
+            $('#age').text(text);
          }
     </script>
     <!-- Wrapper-->
