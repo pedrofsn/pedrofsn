@@ -116,6 +116,9 @@
 
 						if ( $( this ).attr( 'title' ) ) {
 							title = $( this ).attr( 'title' );
+							if ( title ) {
+								title = title.replace( /</g, '&lt;' ).replace( />/g, '&gt;' ).replace( /"/g, '&quot;' ).replace( /'/g, '&#x27;' ).replace( /\//g, '&#x2F;' );
+							}
 						}
 
 
@@ -706,7 +709,7 @@
 
 				if ( title ) {
 					$( '#swipebox-top-bar' ).show();
-					$( '#swipebox-title' ).append( title );
+					$( '#swipebox-title' ).text( title );
 				} else {
 					$( '#swipebox-top-bar' ).hide();
 				}
