@@ -46,6 +46,9 @@
             var calculatedAge = getAge(birthday);
             var text = calculatedAge + ' anos';
             $('#age').text(text);
+            setTimeout(function() {
+                $('#wrapper').addClass('visible').fadeTo(400, 1.0);
+            }, 500);
          }
     </script>
     <!-- Wrapper-->

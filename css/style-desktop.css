@@ -104,6 +104,13 @@
 		width: 45em;
 		margin: 0 auto;
 		opacity: 0.00001;
+		transition: opacity 0.4s ease-in-out;
+	}
+
+	#wrapper.visible,
+	#wrapper.pg-loaded
+	{
+		opacity: 1 !important;
 	}
 
 		#wrapper.tall
