@@ -56,21 +56,21 @@ All 6 dependabot alerts are related to jQuery. The project uses outdated jQuery 
 
 | Vulnerability | CVE | Status | Fixed By | Date |
 |---------------|-----|--------|----------|------|
-| XSS in jQuery < 3.4.0 | CVE-2019-11358 | ✅ FIXED | Upgrade jQuery to 3.7.1 | - |
-| XSS in jQuery < 3.0.0 | CVE-2015-9251 | ✅ FIXED | Upgrade jQuery to 3.7.1 | - |
+| XSS in jQuery < 3.4.0 | CVE-2019-11358 | ✅ FIXED | Upgrade jQuery to 3.7.1 | 2023-09 |
+| XSS in jQuery < 3.0.0 | CVE-2015-9251 | ✅ FIXED | Upgrade jQuery to 3.7.1 | 2023-09 |
 
-### Remaining Alerts
-The 6 open dependabot alerts reference old file paths (`jquery-2.1.0.min.js`, `jquery-2.1.3.min.js`) that no longer exist in the repository. These alerts can be dismissed as:
+### Dependabot Alerts Status
 
-- **"Fixed in this project"** - The vulnerabilities are already addressed
-- **"No longer relevant"** - The old file paths no longer exist
+| Alert # | Manifest | CVE | Status | Dismissed Reason |
+|---------|----------|-----|--------|------------------|
+| 15 | js/jquery-2.1.3.min.js | CVE-2019-11358 | ✅ DISMISSED | not_used |
+| 14 | js/jquery-2.1.0.min.js | CVE-2019-11358 | ✅ DISMISSED | not_used |
+| 13 | js/jquery.min.js | CVE-2019-11358 | ✅ DISMISSED | not_used |
+| 6 | js/jquery.min.js | CVE-2015-9251 | ✅ DISMISSED | not_used |
+| 5 | js/jquery-2.1.3.min.js | CVE-2015-9251 | ✅ DISMISSED | not_used |
+| 4 | js/jquery-2.1.0.min.js | CVE-2015-9251 | ✅ DISMISSED | not_used |
 
----
-
-## Next Steps
-
-1. **Dismiss stale alerts**: Go to Dependabot dashboard and dismiss the 6 open alerts as "Fixed" or "No longer relevant"
-2. **Verify in GitHub**: Check that security page shows no active vulnerabilities
+**Total: 6 alerts dismissed | 0 open**
 
 ---
 
@@ -79,7 +79,7 @@ The 6 open dependabot alerts reference old file paths (`jquery-2.1.0.min.js`, `j
 - [x] jQuery upgraded to 3.7.1
 - [x] All jQuery-dependent plugins updated
 - [x] No console errors on page load
-- [ ] Dependabot alerts dismissed in GitHub
+- [x] Dependabot alerts dismissed in GitHub
 
 ---
 
