@@ -74,6 +74,26 @@ All 6 dependabot alerts are related to jQuery. The project uses outdated jQuery 
 
 ---
 
+## Current Status
+
+All 6 dependabot alerts have been dismissed as "not_used" because:
+1. The vulnerable files (`jquery-2.1.0.min.js`, `jquery-2.1.3.min.js`) no longer exist in the repository
+2. The main `jquery.min.js` has been upgraded to jQuery 3.7.1 (addresses both CVEs)
+
+### Verification Commands
+```bash
+gh api repos/pedrofsn/pedrofsn/dependabot/alerts --paginate | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+alerts = data if isinstance(data, list) else []
+open_alerts = [a for a in alerts if a['state'] == 'open']
+print(f'Open: {len(open_alerts)} | Total: {len(alerts)}')
+"
+# Output: Open: 0 | Total: 6 (all dismissed)
+```
+
+---
+
 ## Verification Checklist
 
 - [x] jQuery upgraded to 3.7.1
